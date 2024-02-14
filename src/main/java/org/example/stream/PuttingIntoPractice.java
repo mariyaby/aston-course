@@ -89,7 +89,5 @@ public class PuttingIntoPractice {
                 .min(Comparator.comparing(Transaction::getValue))
                 .get();
         System.out.println(transaction);
-
-
     }
 }
